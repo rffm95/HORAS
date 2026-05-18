@@ -1,0 +1,8 @@
+{
+  "name": "CHEERS O BAR - Staff Schedule",
+  "description": "A high-end, mobile-optimized schedule tracker for the bartenders at CHEERS O BAR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
