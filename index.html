@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    <title>CHEERS O BAR - Schedule</title>
+    <script>
+      // Defensive script to handle cases where browser extensions (like Solana/Phantom) 
+      // try to overwrite window.fetch in environments with restrictive getters (like SES/Lockdown).
+      try {
+        if (Object.getOwnPropertyDescriptor(window, 'fetch')?.get && !Object.getOwnPropertyDescriptor(window, 'fetch')?.set) {
+          const originalFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            value: originalFetch,
+            configurable: true,
+            writable: true,
+            enumerable: true
+          });
+        }
+      } catch (e) {
+        // Silently ignore failures as this is a best-effort patch
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="./src/main.tsx"></script>
   </body>
 </html>
 
