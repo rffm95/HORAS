@@ -2,33 +2,33 @@ import { ScheduleEntry } from './types';
 
 export const HORARIOS: ScheduleEntry[] = [
   { dia: "Segunda", inicio: "15:00", fim: "20:00", funcionario: "Dinis" },
-  { dia: "Segunda", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
-  { dia: "Segunda", inicio: "22:00", fim: "03:00", funcionario: "David" },
+  { dia: "Segunda", inicio: "20:00", fim: "02:30", funcionario: "Bento" },
+  { dia: "Segunda", inicio: "22:00", fim: "02:30", funcionario: "David" },
 
   { dia: "Terça", inicio: "12:00", fim: "20:00", funcionario: "Dinis" },
-  { dia: "Terça", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
-  { dia: "Terça", inicio: "22:00", fim: "03:00", funcionario: "David" },
+  { dia: "Terça", inicio: "20:00", fim: "02:30", funcionario: "Bento" },
+  { dia: "Terça", inicio: "22:00", fim: "02:30", funcionario: "David" },
 
   { dia: "Quarta", inicio: "12:00", fim: "20:00", funcionario: "Bento" },
-  { dia: "Quarta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
-  { dia: "Quarta", inicio: "22:00", fim: "03:00", funcionario: "David" },
+  { dia: "Quarta", inicio: "20:00", fim: "02:30", funcionario: "Divad" },
+  { dia: "Quarta", inicio: "22:00", fim: "02:30", funcionario: "David" },
 
   { dia: "Quinta", inicio: "15:00", fim: "20:00", funcionario: "Bento" },
-  { dia: "Quinta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
-  { dia: "Quinta", inicio: "22:00", fim: "03:00", funcionario: "David" },
+  { dia: "Quinta", inicio: "20:00", fim: "02:30", funcionario: "Divad" },
+  { dia: "Quinta", inicio: "22:00", fim: "02:30", funcionario: "David" },
 
   { dia: "Sexta", inicio: "12:00", fim: "20:00", funcionario: "David" },
-  { dia: "Sexta", inicio: "20:00", fim: "03:00", funcionario: "Dinis" },
+  { dia: "Sexta", inicio: "20:00", fim: "03:00", funcionario: "JP" },
   { dia: "Sexta", inicio: "22:00", fim: "03:00", funcionario: "David" },
-  { dia: "Sexta", inicio: "22:00", fim: "03:00", funcionario: "JP" },
+  { dia: "Sexta", inicio: "22:00", fim: "03:00", funcionario: "Dinis" },
 
   { dia: "Sábado", inicio: "12:00", fim: "20:00", funcionario: "Bento" },
   { dia: "Sábado", inicio: "20:00", fim: "03:00", funcionario: "David" },
   { dia: "Sábado", inicio: "22:00", fim: "03:00", funcionario: "Rui" },
   { dia: "Sábado", inicio: "22:00", fim: "03:00", funcionario: "JP" },
 
-  { dia: "Domingo", inicio: "12:00", fim: "21:00", funcionario: "Dinis" },
-  { dia: "Domingo", inicio: "15:00", fim: "21:00", funcionario: "Bento" }
+  { dia: "Domingo", inicio: "12:00", fim: "20:30", funcionario: "Dinis" },
+  { dia: "Domingo", inicio: "15:00", fim: "20:30", funcionario: "Bento" }
 ];
 
 export const DIAS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
