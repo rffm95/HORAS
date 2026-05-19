@@ -5,7 +5,7 @@ export const HORARIOS: ScheduleEntry[] = [
   { dia: "Segunda", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
   { dia: "Segunda", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
-  { dia: "Terça", inicio: "15:00", fim: "20:00", funcionario: "Dinis" },
+  { dia: "Terça", inicio: "12:00", fim: "20:00", funcionario: "Dinis" },
   { dia: "Terça", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
   { dia: "Terça", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
@@ -13,7 +13,7 @@ export const HORARIOS: ScheduleEntry[] = [
   { dia: "Quarta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
   { dia: "Quarta", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
-  { dia: "Quinta", inicio: "12:00", fim: "20:00", funcionario: "Bento" },
+  { dia: "Quinta", inicio: "15:00", fim: "20:00", funcionario: "Bento" },
   { dia: "Quinta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
   { dia: "Quinta", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
