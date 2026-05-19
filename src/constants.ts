@@ -1,6 +1,7 @@
 import { ScheduleEntry } from './types';
 
 export const HORARIOS: ScheduleEntry[] = [
+  { dia: "Segunda", inicio: "12:00", fim: "15:00", funcionario: "Rui" },
   { dia: "Segunda", inicio: "15:00", fim: "20:00", funcionario: "Dinis" },
   { dia: "Segunda", inicio: "20:00", fim: "02:30", funcionario: "Bento" },
   { dia: "Segunda", inicio: "22:00", fim: "02:30", funcionario: "David" },
@@ -13,6 +14,7 @@ export const HORARIOS: ScheduleEntry[] = [
   { dia: "Quarta", inicio: "20:00", fim: "02:30", funcionario: "Divad" },
   { dia: "Quarta", inicio: "22:00", fim: "02:30", funcionario: "David" },
 
+  { dia: "Quinta", inicio: "12:00", fim: "15:00", funcionario: "Rui" },
   { dia: "Quinta", inicio: "15:00", fim: "20:00", funcionario: "Bento" },
   { dia: "Quinta", inicio: "20:00", fim: "02:30", funcionario: "Divad" },
   { dia: "Quinta", inicio: "22:00", fim: "02:30", funcionario: "David" },
