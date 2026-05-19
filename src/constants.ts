@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import { ScheduleEntry } from './types';
 
 export const HORARIOS: ScheduleEntry[] = [
@@ -43,6 +38,6 @@ export const BARTENDER_COLORS: Record<string, string> = {
   "JP": "#00FF66",      // Neon Green
   "David": "#0099FF",   // Sky Blue
   "Divad": "#FF00E6",   // Magenta
-  "Dinis": "#FFD700"    // Gold
-  "Rui": "#00FF69",      // Neon Green
+  "Dinis": "#FFD700",    // Gold
+  "Rui": "#00FF69"      // Neon Green
 };
