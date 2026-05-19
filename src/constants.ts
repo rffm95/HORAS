@@ -11,10 +11,10 @@ export const HORARIOS: ScheduleEntry[] = [
   { dia: "Segunda", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
   { dia: "Terça", inicio: "15:00", fim: "20:00", funcionario: "Dinis" },
-  { dia: "Terça", inicio: "20:00", fim: "03:00", funcionario: "David" },
-  { dia: "Terça", inicio: "22:00", fim: "03:00", funcionario: "Bento" },
+  { dia: "Terça", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
+  { dia: "Terça", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
-  { dia: "Quarta", inicio: "12:00", fim: "20:00", funcionario: "Dinis" },
+  { dia: "Quarta", inicio: "12:00", fim: "20:00", funcionario: "Bento" },
   { dia: "Quarta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
   { dia: "Quarta", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
@@ -22,18 +22,18 @@ export const HORARIOS: ScheduleEntry[] = [
   { dia: "Quinta", inicio: "20:00", fim: "03:00", funcionario: "Divad" },
   { dia: "Quinta", inicio: "22:00", fim: "03:00", funcionario: "David" },
 
-  { dia: "Sexta", inicio: "12:00", fim: "20:00", funcionario: "Dinis" },
-  { dia: "Sexta", inicio: "20:00", fim: "03:00", funcionario: "Bento" },
+  { dia: "Sexta", inicio: "12:00", fim: "20:00", funcionario: "David" },
+  { dia: "Sexta", inicio: "20:00", fim: "03:00", funcionario: "Dinis" },
   { dia: "Sexta", inicio: "22:00", fim: "03:00", funcionario: "David" },
   { dia: "Sexta", inicio: "22:00", fim: "03:00", funcionario: "JP" },
 
-  { dia: "Sábado", inicio: "12:00", fim: "20:00", funcionario: "Dinis" },
+  { dia: "Sábado", inicio: "12:00", fim: "20:00", funcionario: "Bento" },
   { dia: "Sábado", inicio: "20:00", fim: "03:00", funcionario: "David" },
   { dia: "Sábado", inicio: "22:00", fim: "03:00", funcionario: "Rui" },
   { dia: "Sábado", inicio: "22:00", fim: "03:00", funcionario: "JP" },
 
-  { dia: "Domingo", inicio: "12:00", fim: "21:00", funcionario: "Bento" },
-  { dia: "Domingo", inicio: "15:00", fim: "21:00", funcionario: "Dinis" }
+  { dia: "Domingo", inicio: "12:00", fim: "21:00", funcionario: "Dinis" },
+  { dia: "Domingo", inicio: "15:00", fim: "21:00", funcionario: "Bento" }
 ];
 
 export const DIAS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
@@ -44,4 +44,5 @@ export const BARTENDER_COLORS: Record<string, string> = {
   "David": "#0099FF",   // Sky Blue
   "Divad": "#FF00E6",   // Magenta
   "Dinis": "#FFD700"    // Gold
+  "Rui": "#00FF69",      // Neon Green
 };
